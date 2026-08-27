@@ -10,7 +10,7 @@ def test_placed_student():
         1      # Internship
     )
 
-    assert result == 1
+    assert result == "PLACED"
 
 
 def test_not_placed_student():
@@ -22,4 +22,4 @@ def test_not_placed_student():
         0      # Internship
     )
 
-    assert result == 0
+    assert result == "NOT PLACED"
