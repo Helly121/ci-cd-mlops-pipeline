@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import joblib
 
 # 1. Load dataset
-df = pd.read_csv("placement.csv")
+df = pd.read_csv("data/student_placement.csv")
 
 # 2. Separate features and target
 X = df.drop("Placement", axis=1)
