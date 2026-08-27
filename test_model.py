@@ -1,4 +1,4 @@
-from app import predict_result
+from predict import predict_result
 
 
 def test_placed_student():
